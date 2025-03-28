@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2CD7B97F2D95E42900B5D251 /* JobJournal */ = {
+		2CAD09B82D975963002519EB /* JobJournal-proxy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JobJournal;
+			path = "JobJournal-proxy";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		2CD7B9742D95E42900B5D251 = {
 			isa = PBXGroup;
 			children = (
-				2CD7B97F2D95E42900B5D251 /* JobJournal */,
+				2CAD09B82D975963002519EB /* JobJournal-proxy */,
 				2CD7B97E2D95E42900B5D251 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2CD7B97F2D95E42900B5D251 /* JobJournal */,
+				2CAD09B82D975963002519EB /* JobJournal-proxy */,
 			);
 			name = JobJournal;
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CD7B9782D95E42900B5D251 /* Build configuration list for PBXProject "JobJournal" */;
+			buildConfigurationList = 2CD7B9782D95E42900B5D251 /* Build configuration list for PBXProject "JobJournal-proxy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -267,6 +267,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.royalbluesoftware.JobJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,6 +299,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.royalbluesoftware.JobJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CD7B9782D95E42900B5D251 /* Build configuration list for PBXProject "JobJournal" */ = {
+		2CD7B9782D95E42900B5D251 /* Build configuration list for PBXProject "JobJournal-proxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CD7B9892D95E42900B5D251 /* Debug */,

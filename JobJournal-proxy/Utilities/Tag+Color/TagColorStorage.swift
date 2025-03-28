@@ -37,10 +37,10 @@ struct TagColorStorage: Codable {
 
 extension Color {
     var rgba: (red: CGFloat, green: CGFloat, blue: CGFloat, opacity: CGFloat) {
-        var red: CGFloat = 0
-        var green: CGFloat = 0
-        var blue: CGFloat = 0
-        var opacity: CGFloat = 0
+        let red: CGFloat = 0
+        let green: CGFloat = 0
+        let blue: CGFloat = 0
+        let opacity: CGFloat = 0
         
         return (red, green, blue, opacity)
     }
